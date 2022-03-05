@@ -3,11 +3,11 @@ using namespace std;
 
 class Maths {
     private :
-      int  ans;
+      double  ans;
        
     public :
        
-       double power(int m,int n=2){
+       double power(double m,int n=2){
            ans=1;
            for(int i=1;i<=n;i++){
                ans=ans*m;
@@ -17,7 +17,8 @@ class Maths {
 };
 
 int main() {
-    int  m,n,mPowerN;
+    double  m,mPowerN;
+    int n;
     cout<<"enter number ";
     cin>>m;
     cout<<endl<<"its power ";
